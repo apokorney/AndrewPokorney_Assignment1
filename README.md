@@ -1,2 +1,5 @@
 # AndrewPokorney_Assignment1
-AndrewPokorney_Assignment1 for CIS - 395 Web Programming
+Name: Andrew Pokorney
+Date Created: 9/22/2016
+Description of Project: Assignment 1
+
