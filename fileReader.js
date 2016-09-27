@@ -9,7 +9,7 @@ reader.readFile                                             //create the readFil
 {
     textData = textData.slice(1, 100000);                   //syntax here is.... 'arr.slice([begin[, end]])'
     textData.split('","')                                   //i'm  spliting by " , " here
-        .sort()                                             //sprts array e;elents
+        .sort()                                             //sorts array e;elents
         .forEach(function(simpsons){                        //forEach() method executes a provided function once per array element
             console.log(simpsons) })                        //print out the sorted simpons arry
 }
