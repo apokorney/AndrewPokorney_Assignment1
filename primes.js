@@ -1,21 +1,8 @@
 /**
  * Created by andrew.pokorney on 9/22/2016.
+ * Primes Program
  */
-
-//figure out 2,3,5,7,11,13....10,001th
-    //104,743 is the actual solution
-
-// var isPrime = function (num1){
-//         if (n % n === 0) {
-//             console.log(n)
-//             return true
-//         }
-//     }
-//
-// for(var i = 1; i = )
-
-
-    function prime(index) {
+    function primeNum(index) {
         var i, primes = [2, 3], n = 5;
 
     function isPrime(n) {
@@ -31,8 +18,9 @@
     for (i = 2; i <= index; i += 1) {
         while (!isPrime(n)) {
             n += 2;}
-        primes.push(n);
+        primes.push(n);     //this was cool method, didn't know how to push to an array
         n += 2;}
     return primes[index - 1];}
 
-console.log(prime(1e4 + 1));
+
+    console.log(primeNum(10001));
