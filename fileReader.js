@@ -5,13 +5,13 @@
 
 var reader = require('fs');                                 //'fs' is the node file system wrapper
 reader.readFile                                             //create the readFile obj
-("Assignment1_names-1.txt", 'utf8', function(err,textData)  //so 'utf8' gives a blank unicode space
+("Assignment1_names-1.txt", 'utf8', function(err,textData)  //so 'utf8' gives a blank unicode space, need that function in there too.
 {
     textData = textData.slice(1, 100000);                   //syntax here is.... 'arr.slice([begin[, end]])'
-    textData.split('","')                                   //i'm  spliting by " , " here
-        .sort()                                             //sorts array elements
-        .forEach(function(simpsons){                        //forEach() method executes a provided function once per array element
-            console.log(simpsons) })                        //print out the sorted simpons arry
+        textData.split('","')                               //i'm  spliting by " , " here
+            .sort()                                         //sorts array elements
+            .forEach(function(simpsons){                    //forEach() method executes a provided function once per array element
+                console.log(simpsons) })                    //print out the sorted simpons arry
 }
 );
 
